@@ -1,0 +1,102 @@
+	*{
+		margin:0;
+		padding: 0;
+	}
+	/*Pagina de login*/
+	 .mainlogin{
+	 	position: absolute;
+	 	display: flex;
+	 	justify-content: center;
+	 	align-items: center;
+	 	position: absolute;
+	 	width: 100%;
+	 	height: 100%;
+		background: linear-gradient(-90deg, #30308a, #903590c9);
+	}
+
+	#login-column{
+		background-color: #fff;
+		background-color: #fff;
+		border-radius: 3px;
+		box-shadow:0px 0px 5px #ddd;
+	}
+
+	#login-box{
+		margin-top: 50px;
+	}
+
+
+	/*Area usuario*/
+	header{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background-color: #e3eaf3;
+		height: 50px;
+		margin-left: 180px;
+	}
+
+
+		
+	#main-areauser {
+		margin-left: 180px;
+		transition: all 0.5s;
+		padding: 40px;
+	}
+
+	.slidebar{
+		width: 180px;
+		height: 100%; 
+		background-color: #193048;
+	}
+
+	.logo{
+		width: 100%;
+		height: 50px;
+	}
+
+	.menu{
+		width: 100%;
+	}
+
+	.menu ul{
+		padding: 0;
+		margin:0;
+		width: 100%;
+	}
+
+	.menu ul li{
+		padding: 0;
+		margin:0;
+		list-style: none;
+		width: 100%;
+	} 
+
+	.menu a{
+		display: flex;
+		align-items: center;
+		width: 100%;
+		height: 50px;
+		text-decoration:none;
+		color:#fff;
+		font-size: 12pt;
+	}
+
+	.menu li:hover, .active{
+		background-color: #0098cd;
+		color: #000;
+	}
+
+	.menu span{
+		padding: 15px;
+	}
+
+
+	form{
+		width: 100%;
+	}
+
+
+
+
+

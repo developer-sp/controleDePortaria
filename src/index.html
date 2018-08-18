@@ -1,20 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Login</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
 </head>
 <body>
-	<div id="login">
-		<form>
-		  <label for="usuario">Usuário</label><br>
-		  <input type="text" name="usuario"><br>
-		  <label for="senha">Senha</label><br>
-		  <input type="password" name="senha"><br>
-		  <input type="submit" name="Enviar"><br>
-		  
-		</form>
-
-	</div>
+	<div id="container">
+        
+        <div class="box">
+            <form>
+              <h1>Login In</h1>
+                <div class="inputWithIcon inputIconBg">
+              <input type="text" name="usuario" placeholder="Usuário" autofocus required>
+                    <i class="fa fa-user fa-lg fa-fw" aria-hidden="true"></i>
+                </div>
+                <div class="inputWithIcon inputIconBg">
+              <input type="password" name="senha" placeholder="Senha" required>
+                    <i class="fa fa-lock fa-lg fa-fw" aria-hidden="true"></i>
+                </div>
+                <div id="submit">
+              <input type="submit" value="Entrar">
+                </div>    
+             </form>    
+            </div>
+            
+        <div id="esq_senha">
+            <a href="">Esqueci a Senha</a>
+        </div>
+    </div> 
+                
 </body>
 </html>

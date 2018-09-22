@@ -1,0 +1,276 @@
+* {
+    box-sizing: border-box;
+    border: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font: #fff;
+}
+
+/* ÁREA DE LOGIN*/
+
+body #area_login {
+    max-height: 720px;
+}
+
+#formlogin {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+}  
+
+
+ /*FIM LOGIN*/
+
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+#container{
+    display: flex;
+    flex-direction: column;
+	max-width: 320px;
+	border: 1px solid gray;
+    box-shadow: 0px 0px 10px #a4ddf1;
+    border-radius: 8px;
+    background-color: rgba(10,23,55,0.3);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 20px;
+}
+
+.box input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 8px;
+    border-radius: 4px;
+}
+
+.inputWithIcon {
+    display: flex;
+    position: relative;
+}
+
+.inputWithIcon i {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 9px;
+    top: 8px;
+    bottom: 8px;
+    padding: 13px 25px;
+    color: #ddd;
+}
+.inputWithIcon.inputIconBg i {
+    background: #aaa;
+    color: #fff;
+    padding: 14px 22px;
+    border-radius: 4px 0 0 4px;
+}
+
+.inputWithIcon.inputIconBg input[type=text]:focus + i {
+    color: #fff;
+    background-color: dodgerblue;
+    transition: 0.4s;
+}
+
+.inputWithIcon.inputIconBg input[type=password]:focus + i {
+    color: #fff;
+    background-color: dodgerblue;
+    transition: 0.4s;
+}
+
+/*.inputWithIcon input[type=text], input[type=password] {
+    padding-left: 60px;
+}*/
+
+input[type="submit"] {
+    margin-top: 20px;
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#submit {
+    display: flex;
+    width: 100%;
+}
+#esq_senha {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#esq_senha a {
+    color: #fff;
+    font: 12px 'Lato' sans-serif;
+    text-decoration: none;
+    margin: 10px 30px;
+}
+
+.topo {
+    height: 50px;
+    line-height: 50px;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    background-color:darkslategrey;
+}
+
+.topo a {
+    display: flex;
+    justify-content: space-between;
+    color: aliceblue;
+    font-size: 14px;
+    margin-right: 30px;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    top: 50px;
+    width: 200px;
+    bottom: 0;
+    position: fixed;
+    background-color:darkslategrey;
+    color: #fff;
+}
+
+section.logon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+hr {
+    margin: 0;
+    background: #fff;
+}
+
+menu {
+    margin-top: -40px;
+}
+
+menu ul {
+    margin-top: 60px;
+}
+
+menu ul li {
+    padding: 10px;
+    font-size: 14px;
+}
+
+menu ul li a {
+    margin-left: -35px;
+    color: aliceblue;
+}
+
+.img_user img {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.online {
+    display: flex;
+    height: 30px;
+    line-height: 25px;
+}
+
+.online_led {
+    background-color: chartreuse;
+    width: 10px;
+    height: 10px;
+    margin-top: 6px;
+    border-radius: 50%;
+}
+
+.online_msg {
+    margin-left: 10px;
+    height: 20px;
+    line-height: 20px;
+}
+
+.usuario {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.navbar-nav ul li a:hover {
+    text-decoration: none;
+    background: #fff;
+}
+
+/* INICIO PAINEL DE CONTROLE - ADM*/
+
+.painel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* FIM PAINEL DE CONTROLE*/
+
+
+
+/* INÍCIO CADASTRO DE USUÁRIOS */
+
+.form_cadastro {
+    display: flex;
+    margin-left: 200px;
+    height: 100%;
+    align-items: inherit;
+}
+
+input['enviar'],input['cancelar'] {
+    width: 60px;
+}
+
+
+.usuarios_online {
+    margin-top: 30px;
+    margin-left: 300px;
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

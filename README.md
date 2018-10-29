@@ -16,8 +16,9 @@ Olhe para os issues(ERROS)que se relacionam com o todo, observe se alguém está
 
 Depois disso faça um fork do projeto que é uma cópia da estrutura atual, altere como desejado, faça o commit, e o pull request que seria a requisição para puxar suas alterações para este repositório.
 
-Colaboradores:
+Contribuidores:
 
 Rocha Junior(idéia)
-Paulo Matos(criação);
+Paulo Matos
+viweesleyy
 

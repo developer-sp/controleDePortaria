@@ -1,0 +1,25 @@
+{
+  "name": "controledeportaria",
+  "version": "1.0.0",
+  "description": "Este é um projeto para solidificar conhecimentos entre alunos do curso de PHP do zero ao profissional - Professor Bonieky Lacerda",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.5.0",
+    "popper.js": "^1.14.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sidneymiranda/controleDePortaria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sidneymiranda/controleDePortaria/issues"
+  },
+  "homepage": "https://github.com/sidneymiranda/controleDePortaria#readme"
+}
